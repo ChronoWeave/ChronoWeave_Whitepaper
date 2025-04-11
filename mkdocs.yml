@@ -24,23 +24,38 @@ theme:
 
 nav:
   - Home: index.md
+  - Public Whitepaper: ../whitepapers/ChronoWeave_Public_Whitepaper.md
   - Getting Started:
     - Installation: getting-started/installation.md
     - Quick Start: getting-started/quick-start.md
     - Basic Concepts: getting-started/basic-concepts.md
+  - Core Components:
+    - Time-Layered Knowledge Graph: components/tlkg.md
+    - Regulatory-Aware Ethical Suspension System: components/ra-ess.md
+    - Temporal Integrity Framework: components/tif.md
   - API Reference:
     - Overview: api/overview.md
     - Core API: api/core.md
     - TIF API: api/tif.md
     - Compliance API: api/compliance.md
+  - Compliance:
+    - HIPAA Compliance: compliance/hipaa.md
+    - FINRA Compliance: compliance/finra.md
   - Guides:
-    - Examples: guides/examples.md
+    - Integration Guide: guides/integration.md
+    - Performance Optimization: guides/performance.md
+    - Security Best Practices: guides/security.md
   - Whitepapers:
     - Public Whitepaper: ../whitepapers/ChronoWeave_Public_Whitepaper.md
     - Technical Whitepaper: ../whitepapers/ChronoWeave_Technical_Whitepaper.md
-  - Roadmap: roadmap.md
+  - Beta Program:
+    - Overview: beta/overview.md
+    - Getting Access: beta/getting-access.md
+    - Feedback: beta/feedback.md
   - Contributing:
+    - How to Contribute: contributing/how-to-contribute.md
     - Code of Conduct: ../CODE_OF_CONDUCT.md
+    - Development Workflow: contributing/development-workflow.md
 
 markdown_extensions:
   - admonition
