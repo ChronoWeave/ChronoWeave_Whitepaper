@@ -1,0 +1,16 @@
+# Generated documentation
+site/
+docs/_build/
+
+# System files
+.DS_Store
+Thumbs.db
+
+# Editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# MkDocs
+__pycache__/

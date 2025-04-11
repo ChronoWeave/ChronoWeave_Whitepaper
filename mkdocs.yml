@@ -1,0 +1,99 @@
+site_name: ChronoWeave Documentation
+site_description: Documentation for ChronoWeave - Ethical Temporal Memory for AI Systems
+site_author: ChronoWeave Team
+site_url: https://chronoweave.github.io/chronoweave/
+
+repo_name: chronoweave/chronoweave
+repo_url: https://github.com/chronoweave/chronoweave
+edit_uri: edit/main/docs/
+
+theme:
+  name: material
+  palette:
+    primary: indigo
+    accent: blue
+  logo: assets/chronoweave-logo.svg
+  favicon: assets/chronoweave-logo.svg
+  features:
+    - navigation.tabs
+    - navigation.sections
+    - navigation.expand
+    - navigation.top
+    - search.highlight
+    - search.share
+
+nav:
+  - Home: index.md
+  - Getting Started:
+    - Installation: getting-started/installation.md
+    - Quick Start: getting-started/quick-start.md
+    - Basic Concepts: getting-started/basic-concepts.md
+  - Core Components:
+    - Time-Layered Knowledge Graph: components/tlkg.md
+    - Regulatory-Aware Ethical Suspension System: components/ra-ess.md
+    - Temporal Integrity Framework: components/tif.md
+  - API Reference:
+    - Overview: api/overview.md
+    - Core API: api/core.md
+    - TIF API: api/tif.md
+    - Compliance API: api/compliance.md
+  - Compliance:
+    - HIPAA Compliance: compliance/hipaa.md
+    - FINRA Compliance: compliance/finra.md
+  - Guides:
+    - Integration Guide: guides/integration.md
+    - Performance Optimization: guides/performance.md
+    - Security Best Practices: guides/security.md
+  - Whitepapers:
+    - Public Whitepaper: ../whitepapers/ChronoWeave_Public_Whitepaper.md
+    - Technical Whitepaper: ../whitepapers/ChronoWeave_Technical_Whitepaper.md
+  - Beta Program:
+    - Overview: beta/overview.md
+    - Getting Access: beta/getting-access.md
+    - Feedback: beta/feedback.md
+  - Contributing:
+    - How to Contribute: contributing/how-to-contribute.md
+    - Code of Conduct: ../CODE_OF_CONDUCT.md
+    - Development Workflow: contributing/development-workflow.md
+
+markdown_extensions:
+  - admonition
+  - codehilite
+  - footnotes
+  - meta
+  - pymdownx.arithmatex
+  - pymdownx.betterem
+  - pymdownx.caret
+  - pymdownx.critic
+  - pymdownx.details
+  - pymdownx.emoji:
+      emoji_index: !!python/name:materialx.emoji.twemoji
+      emoji_generator: !!python/name:materialx.emoji.to_svg
+  - pymdownx.highlight
+  - pymdownx.inlinehilite
+  - pymdownx.keys
+  - pymdownx.mark
+  - pymdownx.smartsymbols
+  - pymdownx.superfences
+  - pymdownx.tabbed
+  - pymdownx.tasklist:
+      custom_checkbox: true
+  - pymdownx.tilde
+  - toc:
+      permalink: true
+
+plugins:
+  - search
+  - minify:
+      minify_html: true
+
+extra:
+  social:
+    - icon: fontawesome/brands/github
+      link: https://github.com/chronoweave/chronoweave
+    - icon: fontawesome/brands/twitter
+      link: https://twitter.com/ChronoWeaveAI
+    - icon: fontawesome/solid/globe
+      link: https://www.chronoweave.ai
+
+copyright: Copyright &copy; 2025 ChronoWeave
