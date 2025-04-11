@@ -124,7 +124,7 @@ ChronoWeave is currently in beta testing with select organizations. To learn mor
 
 ## About Us
 
-ChronoWeave is developed by a team of experts in AI, data management, and regulatory compliance. Our mission is to enable organizations to leverage AI capabilities while maintaining the highest standards of ethical data management and regulatory compliance.
+ChronoWeave is developed by a collaborative effort between human and AI. The mission is to enable organizations to leverage AI capabilities better while maintaining the highest standards of ethical data management and regulatory compliance.
 
 ---
 
