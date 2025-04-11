@@ -119,8 +119,8 @@ Implementation follows a structured approach:
 
 ChronoWeave is currently in beta testing with select organizations. To learn more about participating in the beta program or to schedule a demonstration, contact us at:
 
-- **Email**: info@chronoweave.ai
-- **Website**: www.chronoweave.ai
+- **Email**: chronoweave.dev@gmail.com  
+- **Website**: hivedmidai.xyz
 
 ## About Us
 
